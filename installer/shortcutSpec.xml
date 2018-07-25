@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="Xponz" location="startMenu"/>
+	<shortcut
+		name="Xponz Server"
+		target="$INSTALL_PATH\Xponz.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start Xponz server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="Xponz Wallet"
+		target="http://localhost:54994/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch Xponz wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
